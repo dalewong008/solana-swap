@@ -20,7 +20,6 @@ export default function RootLayout({children,}: {children: React.ReactNode; }) {
       <body>
         <ClusterProvider>
           <SolanaProvider>
-            {/* bruh moment */}
             <AppLayout>{children}</AppLayout>
           </SolanaProvider>
         </ClusterProvider>
