@@ -15,8 +15,8 @@ export function AppLayout({ children }: { children: ReactNode }) {
         }}
       >
         <div>
-          <Link href="/">
-           Solana Swap
+          <Link href="">
+           <h5>Solana Swap </h5>
           </Link>
         </div>
         <div>
