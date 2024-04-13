@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import Link from 'next/link';
+//import Link from 'next/link';
 import { WalletButton } from '../solana/solana-provider';
 
 export function AppLayout({ children }: { children: ReactNode }) {
@@ -14,9 +14,9 @@ export function AppLayout({ children }: { children: ReactNode }) {
         }}
       >
         <div>
-          <Link href="/">
-           <h5>Solana Swap </h5> 
-          </Link>
+          
+           <h2>Solana Swap </h2> 
+         
         </div>
         <div>
           <WalletButton />
